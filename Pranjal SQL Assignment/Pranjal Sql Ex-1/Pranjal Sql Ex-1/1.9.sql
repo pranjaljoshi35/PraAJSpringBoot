@@ -1,0 +1,1 @@
+SELECT Person.Person.PersonType, Person.Person.FirstName + '' + Person.Person.LastName as Name, hre.JobTitle from HumanResources.Employee hre Inner Join Person.Person on hre.BusinessEntityID=Person.Person.BusinessEntityID WHERE Person.PersonType='EM'

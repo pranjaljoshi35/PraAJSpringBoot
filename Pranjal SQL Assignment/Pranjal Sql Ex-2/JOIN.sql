@@ -1,0 +1,1 @@
+SELECT Sales.Customer.CustomerID, Sales.Customer.AccountNumber, Sales.SalesOrderHeader.OrderDate, Sales.SalesOrderHeader.SalesOrderNumber, Sales.Customer.ModifiedDate FROM Sales.Customer LEFT JOIN Sales.SalesOrderHeader ON Sales.Customer.CustomerID = Sales.SalesOrderHeader.CustomerID WHERE Sales.SalesOrderHeader.OrderDate = 0
