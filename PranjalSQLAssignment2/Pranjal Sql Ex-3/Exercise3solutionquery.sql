@@ -1,0 +1,2 @@
+SELECT * FROM Sales.SalesOrderHeader
+SELECT TOP(15) SalesOrderID, TotalDue, OrderDate, AccountNumber from Sales.SalesOrderHeader WHERE SalesOrderHeader.TotalDue>70000 Order by TotalDue desc, OrderDate desc

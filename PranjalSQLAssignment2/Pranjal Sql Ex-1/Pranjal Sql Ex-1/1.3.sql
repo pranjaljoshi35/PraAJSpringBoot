@@ -1,0 +1,1 @@
+Select Person.Person.FirstName, Person.Person.LastName From Person.Person Join HumanResources.Employee on Person.Person.BusinessEntityID = HumanResources.Employee.BusinessEntityID WHERE HumanResources.Employee.JobTitle IN ('Design Engineer','Tool Designer','Marketing Assistant')

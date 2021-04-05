@@ -1,0 +1,1 @@
+SELECT * FROM pranjal_saleorderdtl(43662,'CAD','2005-07-01 00:00:00.000')
