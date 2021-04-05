@@ -1,1 +1,0 @@
-SELECT Name, Color,Weight from Production.Product WHERE Weight IN (SELECT MAX(Weight) from Production.Product)
