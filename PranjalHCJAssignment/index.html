@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id='container'>
+        <h1 id = 'main-heading'>Student Enrollment Form</h1>
+        <div class="outerbox">
+            <div class="innerbox sideline">
+                <form action="#">
+                    <p>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name = 'name' required placeholder="Enter Name"></p>
+                    <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name = 'email' required  placeholder = "Enter Email"></p>
+                    <p>Website: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name = 'website' required placeholder = "Enter Website"></p>
+                    <p>Image Link: &nbsp;&nbsp; <input type="text" name = 'img' required placeholder = "Enter Image"></p>
+                    <p id ='pg'>Gender: <input type="radio" name = 'choice' value='Male' id = 'male'> Male</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="choice" value = 'Female' id ='female'> Female</p>
+                    <p>Skills: <input type="checkbox" name="" id="">Java <input type="checkbox" name="" id="">HTML<input type="checkbox" name="" id="">CSS</p>
+                    <p><button class='one' id='submit'>Enroll Student</button> <input type="reset" value="Clear" class='one'id='reset'> </p>
+                </form>
+            </div>
+            
+
+            <div class="innerbox" id = 'dynamic-box'>
+                <h1>Enrolled Students</h1>
+                <div id = 'imgdesc'>
+                    <span>Description</span>
+                    <span>Image</span>
+                </div>
+                    <div class="flex-table" id = 'flex-table'>
+                       
+                    </div>
+            </div>
+        </div>
+        <h1 id = 'footer'> Copyright 2020-2021 by Fresher Training</h1>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
