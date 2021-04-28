@@ -58,7 +58,7 @@ public class PranjalStack
 	public int size() {
 		return Stacktop;
 	}
-	//ask sachin
+	
 	
 	public void print() {
 		try {
