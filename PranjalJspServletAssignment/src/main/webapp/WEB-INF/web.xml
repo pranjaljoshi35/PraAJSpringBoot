@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetUserController</servlet-name>
+  	<display-name>GetUserController</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.web.GetUserController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UploadImage</servlet-name>
+  	<display-name>UploadImage</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.web.UploadImage</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DisplayImage</servlet-name>
+  	<display-name>DisplayImage</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.web.DisplayImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetUserController</servlet-name>
+  	<url-pattern>/getLoginData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UploadImage</servlet-name>
+  	<url-pattern>/imageservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DisplayImage</servlet-name>
+  	<url-pattern>/DisplayImage</url-pattern>
+  </servlet-mapping>
+</web-app>
