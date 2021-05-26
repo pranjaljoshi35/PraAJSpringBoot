@@ -1,1 +1,0 @@
-SELECT Description,ISNULL(MaxQty,0.00) as MaxQty from Sales.SpecialOffer

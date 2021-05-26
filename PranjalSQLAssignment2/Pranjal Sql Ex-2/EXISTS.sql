@@ -1,1 +1,0 @@
-SELECT Sales.Customer.CustomerID, Sales.Customer.AccountNumber, Sales.Customer.ModifiedDate FROM Sales.Customer Where NOT EXISTS (SELECT OrderDate from Sales.SalesOrderHeader where Sales.Customer.CustomerID = Sales.SalesOrderHeader.CustomerID)
