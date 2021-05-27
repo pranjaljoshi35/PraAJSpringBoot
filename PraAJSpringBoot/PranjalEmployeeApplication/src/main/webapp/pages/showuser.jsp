@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page  language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -7,6 +7,6 @@
 <title>Pranjal Assignment</title>
 </head>
 <body>
-	${e mployee}
+	${employee}
 </body>
 </html>
